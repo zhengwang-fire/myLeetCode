@@ -5,6 +5,7 @@ import com.ctsd.ocr.domain.vo.OcrLogParaVo;
 import com.ctsd.ocr.service.UploadOcrLogService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,13 +29,16 @@ public class UploadOcrLogAction {
 
 
     /**
-     * 上传图片识别log
+     * 方法名:  uploadOcrLog
+     * 描述: 上传图片识别log
+     * @author 胡满星
+     * 创建时间: 2020/9/28 16:54
      * @param ocrLogParaDo
-     * @return
+     * @return com.ctsd.frame.entity.dto.ReturnDto<java.lang.String>
      */
     @ApiOperation(value = "上传图片识别log")
     @PostMapping("/uploadOcrLog")
-    public ReturnDto<String> uploadOcrLog(OcrLogParaVo ocrLogParaDo){
+    public ReturnDto<String> uploadOcrLog(@RequestBody OcrLogParaVo ocrLogParaDo){
         return uploadOcrLogService.uploadOcrLog(ocrLogParaDo);
     }
 
