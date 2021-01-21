@@ -42,7 +42,6 @@ class MaximumProductOfThreeNumbers {
     class Solution {
         public int maximumProduct(int[] nums) {
             sort(nums, 0, nums.length - 1);
-            Arrays.sort();
             return Math.max(nums[0] * nums[1] * nums[2], nums[nums.length - 1] * nums[nums.length - 2] * nums[0]);
         }
 
