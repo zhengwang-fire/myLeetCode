@@ -11,8 +11,8 @@ import java.util.Random;
  * 修改人： wangzheng  修改日期： 2021/1/21 9:09
  * 修改备注：
  */
-public class RandomArrUtil {
-    public static int[] getRandomArr(int len,int range){
+public class ArrUtil {
+    public static int[] getRandomArr(int len, int range) {
         Random random = new Random();
         int[] nums = new int[len];
         for (int i = 0; i < len; i++) {
@@ -20,4 +20,17 @@ public class RandomArrUtil {
         }
         return nums;
     }
+
+    public static void print(int[] nums) {
+        for (int n : nums) {
+            System.out.print(n + " ");
+        }
+    }
+
+    public static void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
 }

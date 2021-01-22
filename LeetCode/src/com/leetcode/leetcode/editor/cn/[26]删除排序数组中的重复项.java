@@ -45,7 +45,7 @@
 
 package com.leetcode.leetcode.editor.cn;
 
-import com.leetcode.leetcode.editor.cn.utils.RandomArrUtil;
+import com.leetcode.leetcode.editor.cn.utils.ArrUtil;
 
 import java.util.Arrays;
 
@@ -56,7 +56,7 @@ class RemoveDuplicatesFromSortedArray {
 
     public static void verification() {
         int len = 1000;
-        int[] nums = RandomArrUtil.getRandomArr(len, 1000);
+        int[] nums = ArrUtil.getRandomArr(len, 1000);
         int[] nums2 = new int[nums.length];
         System.arraycopy(nums, 0, nums2, 0, nums.length);
         Solution solution = new RemoveDuplicatesFromSortedArray().new Solution();

@@ -49,9 +49,7 @@ package com.leetcode.leetcode.editor.cn;
 // Related Topics 数组 双指针 
 // 👍 752 👎 0
 
-import com.leetcode.leetcode.editor.cn.utils.RandomArrUtil;
-
-import java.util.Arrays;
+import com.leetcode.leetcode.editor.cn.utils.ArrUtil;
 
 class RemoveElement {
     public static void main(String[] args) {
@@ -60,7 +58,7 @@ class RemoveElement {
 
     public static void verification() {
         Solution solution = new RemoveElement().new Solution();
-        int[] nums = RandomArrUtil.getRandomArr(1000, 100);
+        int[] nums = ArrUtil.getRandomArr(1000, 100);
         int[] nums2 = new int[nums.length];
         System.arraycopy(nums, 0, nums2, 0, nums.length);
         int resultLen = solution.removeElement(nums, 20);

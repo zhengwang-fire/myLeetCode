@@ -25,11 +25,6 @@
 
 package com.leetcode.leetcode.editor.cn;
 
-import sun.security.util.Length;
-
-import java.util.Arrays;
-import java.util.Collections;
-
 class MaximumProductOfThreeNumbers {
     public static void main(String[] args) {
         Solution solution = new MaximumProductOfThreeNumbers().new Solution();

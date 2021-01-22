@@ -43,7 +43,7 @@
 
 package com.leetcode.leetcode.editor.cn;
 
-import com.leetcode.leetcode.editor.cn.utils.RandomArrUtil;
+import com.leetcode.leetcode.editor.cn.utils.ArrUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -58,7 +58,7 @@ class TwoSum {
 
     public static void verification(int k) {
         int len = 1000;
-        int[] nums  = RandomArrUtil.getRandomArr(len,10000);
+        int[] nums  = ArrUtil.getRandomArr(len,10000);
         Random random = new Random();
         int first = random.nextInt(len);
         int second = random.nextInt(len);
