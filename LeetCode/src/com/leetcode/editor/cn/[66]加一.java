@@ -1,4 +1,4 @@
-package com.leetcode.leetcode.editor.cn;
+package com.leetcode.editor.cn;
 //给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。 
 //
 // 最高位数字存放在数组的首位， 数组中每个元素只存储单个数字。 
@@ -41,7 +41,8 @@ package com.leetcode.leetcode.editor.cn;
 // Related Topics 数组 
 // 👍 616 👎 0
 
-import com.leetcode.leetcode.editor.cn.utils.ArrUtil;
+
+import com.leetcode.editor.cn.utils.ArrUtil;
 
 class PlusOne {
     public static void main(String[] args) {

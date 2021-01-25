@@ -1,6 +1,7 @@
-package com.leetcode.leetcode.editor.cn.sortingalgorithm;
+package com.leetcode.editor.cn.sortingalgorithm;
 
-import com.leetcode.leetcode.editor.cn.utils.ArrUtil;
+
+import com.leetcode.editor.cn.utils.ArrUtil;
 
 /**
  * 项目名称：  LeetCode

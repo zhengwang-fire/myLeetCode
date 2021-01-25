@@ -41,9 +41,6 @@ package com.leetcode.editor.cn;
 // 👍 5530 👎 0
 
 import com.leetcode.editor.cn.utils.ListNode;
-import com.leetcode.editor.cn.utils.RandomArrUtil;
-
-import java.util.LinkedList;
 import java.util.Random;
 
 class P2AddTwoNumbers {
