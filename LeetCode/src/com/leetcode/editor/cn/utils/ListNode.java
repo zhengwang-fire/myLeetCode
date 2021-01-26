@@ -27,7 +27,7 @@ public class ListNode {
 
     public ListNode get(int i) {
         ListNode temp = this;
-        for(int var1 = 0 ;var1 <=i ;var1++){
+        for(int var1 = 0 ;var1 < i ;var1++){
             temp = temp.next;
         }
         return temp;
